@@ -1,0 +1,91 @@
+{
+  "name": "atlas-repo",
+  "version": "0.1.0",
+  "description": "Repositório pessoal PT-BR | Atualizado conforme fontes confirmadas",
+  "scrapers": [
+    {
+      "id": "fshd",
+      "name": "FSHD",
+      "description": "PT-BR nativo · 1080p",
+      "version": "1.0.0",
+      "author": "saimuel",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/fshd.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["pt"]
+    },
+    {
+      "id": "redeflix",
+      "name": "RedeFlix",
+      "description": "PT-BR nativo · 1080p",
+      "version": "1.0.0",
+      "author": "saimuel",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/redeflix.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["pt"]
+    },
+    {
+      "id": "megaembed",
+      "name": "MegaEmbed",
+      "description": "PT-BR nativo · 1080p/720p",
+      "version": "1.0.0",
+      "author": "saimuel",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/megaembed.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["pt"]
+    },
+    {
+      "id": "peachify",
+      "name": "Peachify",
+      "description": "PT-BR confirmado · EN · 1080p",
+      "version": "1.0.0",
+      "author": "saimuel",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/peachify.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["pt", "en"]
+    },
+    {
+      "id": "notorrent",
+      "name": "NoTorrent",
+      "description": "PT-BR confirmado · Proxy direto sem P2P · 1080p",
+      "version": "1.0.0",
+      "author": "Dustincos",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/notorrent.js",
+      "enabled": true,
+      "formats": ["mp4", "m3u8"],
+      "contentLanguage": ["pt", "en", "es"]
+    },
+    {
+      "id": "hianime",
+      "name": "HiAnime",
+      "description": "Anime · Sub e Dub · JA/EN · 1080p",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hianime.js",
+      "enabled": true,
+      "formats": ["m3u8"],
+      "contentLanguage": ["ja", "en"]
+    },
+    {
+      "id": "animepahe",
+      "name": "AnimePahe",
+      "description": "Anime HD · Sub e Dub · Arquivos leves",
+      "version": "1.0.0",
+      "author": "Nuvio Team",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/animepahe.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["en", "ja"]
+    }
+  ]
+}
