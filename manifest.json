@@ -129,21 +129,7 @@
       "logo": "https://image.similarpng.com/file/similarpng/very-thumbnail/2021/05/Letter-D-logo-design-template-with-geometric-shape-style-on-transparent-background-PNG.png",
       "contentLanguage": ["en"]
     },
-    {
-      "id": "netmirror",
-      "name": "NetMirror",
-      "description": "Streaming links from netmirror. Automatically disabled on iOS due to compatibility issues.",
-      "version": "1.0.3",
-      "author": "Nuvio Team",
-      "supportedTypes": ["movie", "tv"],
-      "filename": "providers/netmirror.js",
-      "enabled": true,
-      "hasSettings": true,
-      "logo": "https://net22.cc/favicon.ico",
-      "contentLanguage": ["en"],
-      "disabledPlatforms": ["ios"],
-      "supportsExternalPlayer": false
-    },
+   
     {
       "id": "streamflix",
       "name": "StreamFlix",
